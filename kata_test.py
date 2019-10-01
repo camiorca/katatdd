@@ -56,3 +56,6 @@ class MaxMinLenTest(TestCase):
 class MinMaxAveLenTest(TestCase):
     def test_solver_function_empty_string_maxminavelen(self):
         self.assertEqual(MaxMinAveLen().solver_function_maxminavelen(""), [], "Cycle 1: Empty String maxminavelen")
+
+    def test_solver_function_one_num_maxminavelen(self):
+        self.assertEqual(MaxMinAveLen().solver_function_maxminavelen("1"), [1], "Cycle 2: One Num maxminavelen")
