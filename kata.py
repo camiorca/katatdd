@@ -24,6 +24,8 @@ class maxmin:
             all_nums = numbers.split(',')
             num = list(map(int, all_nums))
             res += [max(num)]
-        elif len(numbers) == 4:
-            return []
+        elif len(numbers) > 3:
+            all_nums = numbers.split(',')
+            num = list(map(int, all_nums))
+            res += [max(num)]
         return res
