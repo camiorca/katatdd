@@ -35,5 +35,8 @@ class MinLenTest(TestCase):
         self.assertEqual(minlen().solver_function_minlen(""), [], "Cycle 1: Empty String min")
 
     def test_solver_function_one_num_minlen(self):
-        self.assertEqual(minlen().solver_function_minlen("1"), [1, 1], "Cycle 1: One Num min")
+        self.assertEqual(minlen().solver_function_minlen("1"), [1, 1], "Cycle 2: One Num min")
+
+    def test_solver_function_two_num_minlen(self):
+        self.assertEqual(minlen().solver_function_minlen("1,3"), [2, 3], "Cycle 3: Two Num min")
 
