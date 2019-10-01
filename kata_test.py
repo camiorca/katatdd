@@ -23,3 +23,5 @@ class maxmintest(TestCase):
         self.assertEqual(maxmin().solver_function_max("1"), [1], "Cycle 2: One Number max")
     def test_solver_function_two_numbers_max(self):
         self.assertEqual(maxmin().solver_function_max("1,2"), [2], "Cycle 3: Two Numbers max")
+    def test_solver_function_N_numbers_max(self):
+        self.assertEqual(maxmin().solver_function_max("1,2,3,4"), [4], "Cycle 4: N Numbers max")
