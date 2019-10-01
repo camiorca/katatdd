@@ -61,4 +61,5 @@ class MaxMinLen:
                 list_nums = numbers.split(',')
                 nums = list(map(int, list_nums))
                 max_num = max(nums)
-                return [len(list_nums), max_num]
+                min_num = min(nums)
+                return [len(list_nums), max_num, min_num]

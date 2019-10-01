@@ -47,5 +47,5 @@ class MinLenTest(TestCase):
 
 class MaxMinLenTest(TestCase):
     def test_solver_function_n_nums_maxminlen(self):
-        self.assertEqual(minlen().solver_function_minlen("1,3,5,7,9,12,15"), [7, 15, 1], "Cycle 5 - joint: N Numbers maxminlen")
+        self.assertEqual(MaxMinLen().solver_function_maxminlen("1,3,5,7,9,12,15"), [7, 15, 1], "Cycle 5 - joint: N Numbers maxminlen")
 
