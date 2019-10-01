@@ -6,7 +6,7 @@ class Kata:
             res = []
             if len(numbers) == 1:
                res = [int(numbers)]
-            elif len(numbers) == 3:
+            elif len(numbers) >= 3:
                 all_nums = numbers.split(',')
                 for num in all_nums:
                     res += [int(num)]
