@@ -1,3 +1,3 @@
 class Kata:
-    def solver_function(self):
+    def solver_function(self, numbers):
         pass
