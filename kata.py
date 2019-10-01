@@ -15,11 +15,13 @@ class Kata:
 
 class maxmin:
     def solver_function_max(self,numbers):
+        res = []
         if numbers =="":
             return []
         elif len(numbers) == 1:
-            res = []
             res += [int(numbers)]
-        else:
-            return []
+        elif len(numbers) == 3:
+            all_nums = numbers.split(',')
+            num = list(map(int, all_nums))
+            res += [max(num)]
         return res
