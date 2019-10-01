@@ -1,6 +1,7 @@
 from unittest import TestCase
 
 from kata import Kata
+from kata import maxmin
 
 class KataTest(TestCase):
     def test_solver_function_empty_string(self):
@@ -14,3 +15,7 @@ class KataTest(TestCase):
 
     def test_solver_function_n_numbers(self):
         self.assertEqual(Kata().solver_function("1,2,3,4"), [1, 2, 3, 4], "Cycle 4: N Numbers")
+
+class maxmintest(TestCase):
+    def test_solver_function_empty_string_max(self):
+        self.assertEqual(maxmin().solver_function_max(""), [], "Cycle 1: Empty String max")

@@ -12,3 +12,7 @@ class Kata:
                     res += [int(num)]
 
             return res
+
+class maxmin:
+    def solver_function_max(self):
+        return []
