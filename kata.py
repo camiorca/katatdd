@@ -20,12 +20,16 @@ class maxmin:
             return []
         elif len(numbers) == 1:
             res += [int(numbers)]
+            return res
         elif len(numbers) == 3:
             all_nums = numbers.split(',')
             num = list(map(int, all_nums))
             res += [max(num)]
+            return res
         elif len(numbers) > 3:
             all_nums = numbers.split(',')
             num = list(map(int, all_nums))
-            res += [max(num)]
+            res = [len(all_nums), max(num)]
+            return res
+
         return res
