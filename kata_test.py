@@ -59,3 +59,6 @@ class MinMaxAveLenTest(TestCase):
 
     def test_solver_function_one_num_maxminavelen(self):
         self.assertEqual(MaxMinAveLen().solver_function_maxminavelen("1"), [1], "Cycle 2: One Num maxminavelen")
+
+    def test_solver_function_Two_num_maxminavelen(self):
+        self.assertEqual(MaxMinAveLen().solver_function_maxminavelen("1,3"), [2, 1, 3, 2], "Cycle 3: Two Num maxminavelen")

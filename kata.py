@@ -72,3 +72,5 @@ class MaxMinAveLen:
         elif len(numbers) == 1:
             res += [int(numbers)]
             return res
+
+
