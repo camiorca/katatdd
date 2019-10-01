@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a9b5f72-a56c-498e-aaf8-001d54bf8e48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata.py" beforeDir="false" afterPath="$PROJECT_DIR$/kata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kata_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/kata_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +75,7 @@
       <updated>1569942852694</updated>
       <workItem from="1569955544731" duration="701000" />
       <workItem from="1569956349790" duration="37000" />
-      <workItem from="1569956417571" duration="3465000" />
+      <workItem from="1569956417571" duration="4836000" />
     </task>
     <servers />
   </component>
@@ -97,6 +96,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/katatdd$pytest_in_kata_test_py.coverage" NAME="pytest in kata_test.py Coverage Results" MODIFIED="1569960208919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/katatdd$pytest_in_kata_test_py.coverage" NAME="pytest in kata_test.py Coverage Results" MODIFIED="1569961503133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
