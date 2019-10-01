@@ -11,3 +11,6 @@ class KataTest(TestCase):
 
     def test_solver_function_two_numbers(self):
         self.assertEqual(Kata().solver_function("1,2"), [1, 2], "Cycle 3: Two Numbers")
+
+    def test_solver_function_n_numbers(self):
+        self.assertEqual(Kata().solver_function("1,2,3,4"), [1, 2, 3, 4], "Cycle 4: N Numbers")
