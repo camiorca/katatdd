@@ -39,5 +39,11 @@ class minlen:
         if numbers == "":
             return []
         else:
-            nums = int(numbers)
-            return [len(numbers), nums]
+            if len(numbers) == 1:
+                nums = int(numbers)
+                return [len(numbers), nums]
+            elif len(numbers) == 3:
+                list_nums = numbers.split(',')
+                nums = list(map(int, list_nums))
+                max_num = max(nums)
+                return [len(list_nums), max_num]
