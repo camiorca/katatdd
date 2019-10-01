@@ -31,5 +31,8 @@ class maxmin:
             num = list(map(int, all_nums))
             res = [len(all_nums), max(num)]
             return res
-
         return res
+
+class minlen:
+    def solver_function_minlen(self, numbers):
+        pass
