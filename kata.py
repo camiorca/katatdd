@@ -63,3 +63,7 @@ class MaxMinLen:
                 max_num = max(nums)
                 min_num = min(nums)
                 return [len(list_nums), max_num, min_num]
+
+class MaxMinAveLen:
+    def solver_function_maxminavelen(numbers):
+            return []

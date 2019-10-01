@@ -4,6 +4,7 @@ from kata import Kata
 from kata import maxmin
 from kata import minlen
 from kata import MaxMinLen
+from kata import MaxMinAveLen
 
 
 class KataTest(TestCase):
@@ -52,3 +53,6 @@ class MaxMinLenTest(TestCase):
     def test_solver_function_two_nums_maxminlen(self):
         self.assertEqual(MaxMinLen().solver_function_maxminlen("1,3"), [2, 3, 1], "Cycle 5 - joint: 2 Numbers maxminlen")
 
+class MinMaxAveLenTest(TestCase):
+    def test_solver_function_empty_string_maxminavelen(self):
+        self.assertEqual(MaxMinAveLen().solver_function_maxminavelen(""), [], "Cycle 1: Empty String maxminavelen")
