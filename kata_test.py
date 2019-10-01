@@ -33,3 +33,5 @@ class MaxMinTest(TestCase):
 class MinLenTest(TestCase):
     def test_solver_function_empty_string_minlen(self):
         self.assertEqual(minlen().solver_function_minlen(""), [], "Cycle 1: Empty String min")
+
+

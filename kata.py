@@ -35,4 +35,5 @@ class maxmin:
 
 class minlen:
     def solver_function_minlen(self, numbers):
-        pass
+        if numbers == "":
+            return []
