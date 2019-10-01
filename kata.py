@@ -17,7 +17,9 @@ class maxmin:
     def solver_function_max(self,numbers):
         if numbers =="":
             return []
-        else:
+        elif len(numbers) == 1:
             res = []
             res += [int(numbers)]
+        else:
+            return []
         return res
