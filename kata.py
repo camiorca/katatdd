@@ -33,7 +33,11 @@ class maxmin:
             return res
         return res
 
+
 class minlen:
     def solver_function_minlen(self, numbers):
         if numbers == "":
             return []
+        else:
+            nums = int(numbers)
+            return [len(numbers), nums]
