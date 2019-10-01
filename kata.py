@@ -65,5 +65,6 @@ class MaxMinLen:
                 return [len(list_nums), max_num, min_num]
 
 class MaxMinAveLen:
-    def solver_function_maxminavelen(numbers):
+    def solver_function_maxminavelen(self,numbers):
+        if numbers =="":
             return []
