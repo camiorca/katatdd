@@ -66,5 +66,9 @@ class MaxMinLen:
 
 class MaxMinAveLen:
     def solver_function_maxminavelen(self,numbers):
+        res = []
         if numbers =="":
             return []
+        elif len(numbers) == 1:
+            res += [int(numbers)]
+            return res
