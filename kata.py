@@ -19,4 +19,4 @@ class maxmin:
             return []
         else:
             res = []
-            return []
+            max([int(numbers)])
