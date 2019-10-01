@@ -1,3 +1,4 @@
 class Kata:
     def solver_function(self, numbers):
-        pass
+        if numbers == "":
+            return []
