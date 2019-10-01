@@ -19,3 +19,5 @@ class KataTest(TestCase):
 class maxmintest(TestCase):
     def test_solver_function_empty_string_max(self):
         self.assertEqual(maxmin().solver_function_max(""), [], "Cycle 1: Empty String max")
+    def test_solver_function_one_number_max(self):
+        self.assertEqual(Kata().solver_function("1"), [1], "Cycle 2: One Number max")

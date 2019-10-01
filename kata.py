@@ -15,4 +15,8 @@ class Kata:
 
 class maxmin:
     def solver_function_max(self,numbers):
-        return []
+        if numbers =="":
+            return []
+        else:
+            res = []
+            return []
