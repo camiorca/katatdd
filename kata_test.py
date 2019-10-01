@@ -3,6 +3,7 @@ from unittest import TestCase
 from kata import Kata
 from kata import maxmin
 from kata import minlen
+from kata import MaxMinLen
 
 
 class KataTest(TestCase):
@@ -41,5 +42,10 @@ class MinLenTest(TestCase):
         self.assertEqual(minlen().solver_function_minlen("1,3"), [2, 3], "Cycle 3: Two Num min")
 
     def test_solver_function_n_num_minlen(self):
-        self.assertEqual(minlen().solver_function_minlen("1,3,5,7,9"), [5, 9], "Cycle 3: N Num min")
+        self.assertEqual(minlen().solver_function_minlen("1,3,5,7,9"), [5, 9], "Cycle 4: N Num min")
+
+
+class MaxMinLenTest(TestCase):
+    def test_solver_function_n_nums_maxminlen(self):
+        self.assertEqual(minlen().solver_function_minlen("1,3,5,7,9,12,15"), [7, 15, 1], "Cycle 5 - joint: N Numbers maxminlen")
 

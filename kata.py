@@ -47,3 +47,18 @@ class minlen:
                 nums = list(map(int, list_nums))
                 max_num = max(nums)
                 return [len(list_nums), max_num]
+
+
+class MaxMinLen:
+    def solver_function_maxminlen(self, numbers):
+        if numbers == "":
+            return []
+        else:
+            if ',' not in numbers:
+                nums = int(numbers)
+                return [len(numbers), nums]
+            else:
+                list_nums = numbers.split(',')
+                nums = list(map(int, list_nums))
+                max_num = max(nums)
+                return [len(list_nums), max_num]
