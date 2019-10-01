@@ -1,3 +1,5 @@
+import statistics
+
 class Kata:
     def solver_function(self, numbers):
         if numbers == "":
@@ -72,5 +74,11 @@ class MaxMinAveLen:
         elif len(numbers) == 1:
             res += [int(numbers)]
             return res
-
+        elif len(numbers) == 3:
+            list_nums = numbers.split(',')
+            nums = list(map(int, list_nums))
+            max_num = max(nums)
+            min_num = min(nums)
+            mean_num = statistics.mean(nums)
+            return [len(list_nums), min_num, max_num, mean_num]
 
